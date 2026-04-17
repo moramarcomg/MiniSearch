@@ -22,6 +22,7 @@ def fetch(url: str) -> str | None:
             print(f"[SKIP] Not HTML: {url} ({content_type})")
             return None
 
+        response.encoding = response.apparent_encoding
         return response.text
 
     except requests.exceptions.Timeout:

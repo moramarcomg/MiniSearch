@@ -4,12 +4,12 @@
 
 # --- Crawler settings ---
 SEED_URLS = [
-    "https://wikipedia.org",
+    "https://books.toscrape.com",  # Sitio hecho específicamente para practicar scraping
 ]
 
-MAX_PAGES = 50      # Stop after crawling this many pages
+MAX_PAGES = 5      # Stop after crawling this many pages
 MAX_DEPTH = 3       # How many link-hops away from seed URLs to go
-REQUEST_DELAY = 1.0 # Seconds to wait between requests (be polite!)
+REQUEST_DELAY = 0.5 # Seconds to wait between requests (be polite!)
 REQUEST_TIMEOUT = 5 # Seconds before giving up on a request
 USER_AGENT = "MiniSearch/1.0 (educational project)"
 
