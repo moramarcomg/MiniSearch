@@ -1,13 +1,13 @@
 # MiniSearch — Build a Search Engine from Scratch
 
 
-## 🧭 Project Philosophy
+## Project Philosophy
 
 Google-like systems actually work under the hood — not just theoretically, but through.
 
 ---
 
-## 📁 Final Project Structure
+## Final Project Structure
 
 ```
 minisearch/
